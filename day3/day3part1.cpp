@@ -31,7 +31,6 @@ char find_common_item(string first_compartment, string second_compartment)
 }
 
 
-
 int main()
 {
     freopen("input.txt", "r", stdin);
@@ -66,11 +65,7 @@ int main()
         
         repeated_item = find_common_item(first_compartment, second_compartment);
         
-        //cout << first_compartment << " " << second_compartment << "\n";
         priorities.push_back(priorities_table[repeated_item]);
-        //int x = priorities_table[repeated_item];
-        //cout << x << " " << repeated_item << "\n";
-        
     }
     
     sum_of_priorities = reduce(priorities.begin(), priorities.end());
