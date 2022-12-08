@@ -39,7 +39,7 @@ char find_common_item(vector<string> group)
 
     return ' ';
 }
- 
+
 
 int main()
 {
